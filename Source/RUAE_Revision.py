@@ -61,12 +61,14 @@ This will ensure that the format is correct.
 if __name__ == "__main__":
     print(help)
 
+    json = getJson()
+
     #get search
     while True:
         search = input("Input command.\n")
 
         try:
-            print(searchKey(search))
+            print(searchKey(search, json))
 
         except ValueError:
             if "help" in search:
