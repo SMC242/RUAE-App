@@ -48,6 +48,7 @@ edit = r'''Step 1: Go into the folder of this script.
 Step 2: Select "skills.json" and open it in a text editor
 Step 3: either use a JSON editor online or edit it manually.
 If editing manually: the format is "alias, alias" : "info". "\n" represents a new line.
+Two aliases are required.
 
 Alternatively if you have Python, you can open "dumpToSkills.py" with a text editor,
 and edit the information enclosed in {}.
